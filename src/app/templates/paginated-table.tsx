@@ -127,7 +127,7 @@ export const PaginatedTable = () => {
               >
                 <Table.Cell borderBottom="none">{item.name}</Table.Cell>
                 <Table.Cell>{item.symbol}</Table.Cell>
-                <Table.Cell>{item.price_usd}</Table.Cell>
+                <Table.Cell>&#x24;{item.price_usd}</Table.Cell>
                 <Table.Cell>{item.tsupply}</Table.Cell>
               </Table.Row>
             ))}
