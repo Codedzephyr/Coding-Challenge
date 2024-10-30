@@ -78,7 +78,6 @@ export const PaginatedTable = () => {
           variant="outline"
           striped
           interactive
-          // borderBottom="none"
         >
           <Table.Header borderBottomStyle="hidden">
             <Table.Row bgColor="white">
